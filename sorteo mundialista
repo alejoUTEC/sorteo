@@ -1,0 +1,153 @@
+A=int(input("ingrese primer valor "))
+B=int(input("ingrese segundo valor "))
+C=int(input("ingrese tercer valor "))
+if A<B and A<C:
+     print("el menor munero es",A)
+elif B<A and B<C:
+     print("el menor munero es",B)
+elif C<A and C<B:
+     print("el menor munero es",C)
+
+
+
+n=float(input("ingrese nota "))
+if 18<=n<=20:
+    print("excelencia")
+if 15<=n<=17:
+    print("distincion")
+if 11<=n<=14:
+    print("aprobado")
+if n<11:
+    print("desaprobado")
+
+
+
+
+
+
+
+while i<8:
+    input()
+
+
+
+
+a=int(input("nota 1: "))
+b=int(input("nota 2: "))
+c=int(input("nota 3: "))
+d=int(input("nota 4: "))
+e=int(input("nota 5: "))
+f=int(input("nota 6: "))
+x=(a+b+c+d+e+f)/6
+print(x)
+
+
+-.-.--.-.-.-.-.-.-.
+09/05/2018 CLASE 
+.-.-.-.-.-.-.-.-.-.
+
+
+lista1 = ["A","B","C"]
+print(lista1)
+lista1.append("D")
+print(lista1)
+
+
+
+
+listasala =["mesa","silla","adornos","juguetes","cortinas"]
+print(listasala)
+
+
+
+listadendades=[13,18,14,17,16]
+print(listadendades)
+listadendades.append(21)
+print(listadendades)
+
+
+lista1 = ["A","B","C"]
+lista2 = lista1
+print(lista1,lista2)
+lista1 =["A","C"]
+print(lista1,lista2)
+
+
+lista1 = ["A","B","C","D","E"]
+listapesos = [20,15,48,75,95]
+lista1.append("F")
+lista1.append("G")
+listapesos.append(989)
+listapesos.append(59)
+print(listapesos[3])
+print(lista1[5])
+
+
+-.-.--.-.-.-.-.-.-.
+16/05/2018 CLASE 
+.-.-.-.-.-.-.-.-.-.
+
+c=int(input("Por favor ingrese numero de clientes: "))
+lista=[]
+i=0
+while i<c:
+    n=input("nombre: ")
+    lista.insert(i,n)
+    i=i+1
+lista.pop(0)
+print(lista)
+lista.pop()
+print(lista)
+lista.insert(0,"primera")
+lista.insert(1,"segunda")
+lista.append("penultima")
+lista.append("ultima")
+print(lista)
+
+
+
+
+
+
+
+
+examen---------------------------------
+
+c=int(input())
+n=int(input())
+i=0
+while i<n
+
+
+
+
+
+
+
+
+
+fibonacci=[]
+x=0
+y=1
+num = int(input())
+for n in range(num):
+    fibonacci.append(x+y)
+    aux = x + y
+    x = y
+    y = aux
+print(fibonacci)
+
+
+
+fibonacci=[]
+x=0
+y=1
+z = int(input())
+for n in range(z):
+    fibonacci.append(x+y)
+    aux = x + y
+    x = y
+    y = aux
+print(fibonacci[z-3])
+}
+}
